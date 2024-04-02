@@ -4,6 +4,12 @@
   "item.enderitecommandblocktools.enderite_command_block_shovel": "Enderite Command Block Shovel",
   "item.enderitecommandblocktools.enderite_command_block_pickaxe": "Enderite Command Block Pickaxe",
   "item.enderitecommandblocktools.enderite_command_block_hoe": "Enderite Command Block Hoe",
-
-  "creativemodetab.enderite_command_block_tools": "Enderite Command Block Tools"
+  "item.enderitecommandblocktools.netherite_command_block_sword": "Netherite Command Block Sword",
+  "item.enderitecommandblocktools.netherite_command_block_axe": "Netherite Command Block Axe",
+  "item.enderitecommandblocktools.netherite_command_block_shovel": "Netherite Command Block Shovel",
+  "item.enderitecommandblocktools.netherite_command_block_pickaxe": "Netherite Command Block Pickaxe",
+  "item.enderitecommandblocktools.netherite_command_block_hoe": "Netherite Command Block Hoe",
+  "item.enderitecommandblocktools.netherite_command_block_upgrade": "Netherite Command Block Upgrade",
+  "item.enderitecommandblocktools.enderite_command_block_upgrade": "Enderite Command Block Upgrade",
+  "creativemodetab.enderite_command_block_tools": "Command Block Tools"
 }

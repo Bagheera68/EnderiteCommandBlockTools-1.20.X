@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enderitecommandblocktools:enderite_command_block_sword",
+    "enderitecommandblocktools:enderite_command_block_pickaxe",
+    "enderitecommandblocktools:enderite_command_block_axe",
+    "enderitecommandblocktools:enderite_command_block_shovel",
+    "enderitecommandblocktools:enderite_command_block_hoe",
+    "enderitecommandblocktools:enderite_command_block_upgrade"
+  ]
+}

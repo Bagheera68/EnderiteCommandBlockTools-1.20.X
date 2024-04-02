@@ -1,0 +1,11 @@
+{
+  "type": "witherstormmod:anvil",
+  "cost": 15,
+  "left": {
+    "item": "witherstormmod:command_block_hoe"
+  },
+  "result": "enderitecommandblocktools:netherite_command_block_hoe",
+  "right": {
+    "item": "enderitecommandblocktools:netherite_command_block_upgrade"
+  }
+}

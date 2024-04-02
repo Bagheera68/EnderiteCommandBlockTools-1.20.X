@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "C": {
+      "item": "witherstormmod:command_block_book"
+    }
+  },
+  "result": {
+    "item": "enderitecommandblocktools:netherite_command_block_upgrade"
+  }
+}

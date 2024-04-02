@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "enderitecommandblocktools:item/endrite_command_block_paxel"
+  }
+}
