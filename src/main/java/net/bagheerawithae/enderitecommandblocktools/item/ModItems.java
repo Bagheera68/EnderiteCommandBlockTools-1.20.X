@@ -1,7 +1,7 @@
 package net.bagheerawithae.enderitecommandblocktools.item;
 
 import net.bagheerawithae.enderitecommandblocktools.ecbtcws;
-import net.bagheerawithae.enderitecommandblocktools.item.custom.EnderiteCommandBlockPaxelItem;
+//import net.bagheerawithae.enderitecommandblocktools.item.custom.EnderiteCommandBlockPaxelItem;
 import net.bagheerawithae.enderitecommandblocktools.util.EnderiteCommandBlockToolsItemTier;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,15 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> Enderite_Command_Block_Sword = ITEMS.register("enderite_command_block_sword",
             () -> new EnderiteCommandBlockSwordItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, 7, -1.5F,
                     (new Item.Properties()).fireResistant().rarity(Rarity.EPIC)));
-
     public static final RegistryObject<AxeItem> Enderite_Command_Block_Axe = ITEMS.register("enderite_command_block_axe",
             () -> new EnderiteCommandBlockAxeItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, 0, -3.0F,
                     (new AxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
-
-    public static final RegistryObject<EnderiteCommandBlockPaxelItem> Enderite_Command_Block_Paxel = ITEMS.register("enderite_command_block_paxel",
-            () -> new EnderiteCommandBlockPaxelItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, 0, -3.0F,
-                    (new EnderiteCommandBlockPaxelItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
-
     public static final RegistryObject<ShovelItem> Enderite_Command_Block_Shovel = ITEMS.register("enderite_command_block_shovel",
             () -> new EnderiteCommandBlockShovelItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, -4, -3.4F,
                     (new ShovelItem.Properties()).fireResistant().rarity(Rarity.EPIC)));

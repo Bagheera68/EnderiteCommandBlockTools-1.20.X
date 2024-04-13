@@ -62,7 +62,6 @@ public class ecbtcws {
             event.accept(ModItems.Netherite_Command_Block_Hoe);
             event.accept(ModItems.Enderite_Command_Block_Upgrade);
             event.accept(ModItems.Netherite_Command_Block_Upgrade);
-            event.accept(ModItems.Enderite_Command_Block_Paxel);
         }
 
     }
