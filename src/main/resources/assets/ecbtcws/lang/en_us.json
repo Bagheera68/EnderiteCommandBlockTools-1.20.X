@@ -1,0 +1,18 @@
+{
+  "item.ecbtcws.enderite_cmd_sword": "Enderite Command Block Sword",
+  "item.ecbtcws.enderite_cmd_axe": "Enderite Command Block Axe",
+  "item.ecbtcws.enderite_cmd_shovel": "Enderite Command Block Shovel",
+  "item.ecbtcws.enderite_cmd_pickaxe": "Enderite Command Block Pickaxe",
+  "item.ecbtcws.enderite_cmd_hoe": "Enderite Command Block Hoe",
+  "item.ecbtcws.netherite_cmd_sword": "Netherite Command Block Sword",
+  "item.ecbtcws.netherite_cmd_axe": "Netherite Command Block Axe",
+  "item.ecbtcws.netherite_cmd_shovel": "Netherite Command Block Shovel",
+  "item.ecbtcws.netherite_cmd_pickaxe": "Netherite Command Block Pickaxe",
+  "item.ecbtcws.netherite_cmd_hoe": "Netherite Command Block Hoe",
+  "item.ecbtcws.netherite_cmd_upgrade": "Netherite Command Block Upgrade",
+  "item.ecbtcws.enderite_cmd_upgrade": "Enderite Command Block Upgrade",
+  "item.ecbtcws.enderite_cmd_paxel": "Enderite Command Block Paxel",
+  "item.ecbtcws.enderite_cmd_half_tool": "Enderite Command Block Half Tool",
+
+  "creativemodetab.command_block_tools": "Command Block Tools"
+}

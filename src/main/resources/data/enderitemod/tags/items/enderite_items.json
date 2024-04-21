@@ -1,11 +1,13 @@
 {
   "replace": false,
   "values": [
-    "enderitecommandblocktools:enderite_command_block_sword",
-    "enderitecommandblocktools:enderite_command_block_pickaxe",
-    "enderitecommandblocktools:enderite_command_block_axe",
-    "enderitecommandblocktools:enderite_command_block_shovel",
-    "enderitecommandblocktools:enderite_command_block_hoe",
-    "enderitecommandblocktools:enderite_command_block_upgrade"
+    "ecbtcws:enderite_cmd_sword",
+    "ecbtcws:enderite_cmd_pickaxe",
+    "ecbtcws:enderite_cmd_axe",
+    "ecbtcws:enderite_cmd_shovel",
+    "ecbtcws:enderite_cmd_hoe",
+    "ecbtcws:enderite_cmd_upgrade",
+    "ecbtcws:enderite_cmd_paxel",
+    "ecbtcws:enderite_cmd_half_tool"
   ]
 }

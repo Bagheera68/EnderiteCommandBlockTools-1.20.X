@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "ecbtcws:item/netherite_cmd_shovel"
+  }
+}

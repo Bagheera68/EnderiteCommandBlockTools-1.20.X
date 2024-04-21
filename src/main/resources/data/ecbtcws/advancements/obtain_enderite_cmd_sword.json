@@ -1,0 +1,33 @@
+{
+  "parent": "witherstormmod:main/silver_lining",
+  "display": {
+    "icon": {
+      "item": "ecbtcws:enderite_cmd_sword"
+    },
+    "title": "Maxed Out",
+    "description": "Obtain A Enderite Command Block Sword",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecbtcws:enderite_cmd_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

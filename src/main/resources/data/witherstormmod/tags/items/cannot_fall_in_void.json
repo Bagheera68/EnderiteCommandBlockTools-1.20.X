@@ -1,7 +1,10 @@
 {
 "replace": false,
 "values": [
-"#witherstormmod:command_block_tools",
-"witherstormmod:command_block_blook"
+  "#witherstormmod:command_block_tools",
+  "witherstormmod:command_block_book",
+  "ecbtcws:enderite_cmd_upgrade",
+  "ecbtcws:netherite_cmd_upgrade",
+  "ecbtcws:enderite_cmd_half_tool"
 ]
 }

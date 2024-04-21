@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values":[
+    "ecbtcws:enderite_cmd_pickaxe",
+    "ecbtcws:enderite_cmd_axe",
+    "ecbtcws:enderite_cmd_shovel",
+    "ecbtcws:enderite_cmd_hoe"
+  ]
+}

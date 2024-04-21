@@ -10,7 +10,7 @@ import net.minecraftforge.event.TickEvent;
 import nonamecrackers2.witherstormmod.common.init.WitherStormModParticleTypes;
 import nonamecrackers2.witherstormmod.common.tags.WitherStormModItemTags;
 
-public class ItemParticleEffectsEnderite {
+public class ItemParticleEffectsEnderiteHalfTool {
     public static void onClientTick(TickEvent.ClientTickEvent event)
     {
         Minecraft mc = Minecraft.getInstance();
@@ -24,7 +24,7 @@ public class ItemParticleEffectsEnderite {
                     if (entity instanceof ItemEntity)
                     {
                         ItemEntity item = (ItemEntity)entity;
-                        if (item.getItem().is(ModItems.Enderite_Cmd_Upgrade.get()) || item.getItem().is(WitherStormModItemTags.COMMAND_BLOCK_TOOLS))
+                        if (item.getItem().is(ModItems.Enderite_Cmd_Half_tool.get()) || item.getItem().is(WitherStormModItemTags.COMMAND_BLOCK_TOOLS))
                         {
                             for (int i = 0; i < 2; i++)
                             {

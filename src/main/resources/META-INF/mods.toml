@@ -6,7 +6,7 @@ license="MIT"
 modId="ecbtcws"
 version="${file.jarVersion}"
 displayName="Enderite Command Block Tools"
-logoFile="enderite_command_block_sword.png"
+logoFile="enderite_cmd_paxel.png"
 credits="Bagheerawithae"
 authors="Bagheerawithae"
 description='''
@@ -36,6 +36,6 @@ An addon for cwsm & enderitemod.
 [[dependencies.ecbtcws]]
     modId="witherstormmod"
     mandatory=true
-    versionRange="[3.2.1.3,)"
+    versionRange="[4.0.1.1,)"
     ordering="NONE"
     side="BOTH"

@@ -15,8 +15,8 @@ public class ModCreativeModeTabs {
             ecbtcws.MOD_ID);
 
     public static RegistryObject<CreativeModeTab> COMMAND_BLOCK_TOOLS = CREATIVE_MODE_TABS.register("command_block_tools", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Enderite_Command_Block_Sword.get()))
-                    .title(Component.translatable("creativemodetab.enderite_command_block_tools")).build());
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Enderite_Cmd_Paxel.get()))
+                    .title(Component.translatable("creativemodetab.command_block_tools")).build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

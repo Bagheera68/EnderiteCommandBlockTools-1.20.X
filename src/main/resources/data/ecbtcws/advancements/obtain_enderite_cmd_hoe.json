@@ -1,0 +1,35 @@
+{
+  "parent": "ecbtcws:obtain_netherite_cmd_hoe",
+  "display": {
+    "icon": {
+      "item": "ecbtcws:enderite_cmd_hoe"
+    },
+    "title": "Maximun Dedication",
+    "description": "Obtain An Enderite Command Block Hoe",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecbtcws:enderite_cmd_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ],
+  "rewards": {
+    "experience": 1250
+  }
+}

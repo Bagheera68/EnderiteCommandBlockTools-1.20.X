@@ -24,7 +24,7 @@ public class ItemParticleEffectsNetherite {
                     if (entity instanceof ItemEntity)
                     {
                         ItemEntity item = (ItemEntity)entity;
-                        if (item.getItem().is(ModItems.Netherite_Command_Block_Upgrade.get()) || item.getItem().is(WitherStormModItemTags.COMMAND_BLOCK_TOOLS))
+                        if (item.getItem().is(ModItems.Netherite_Cmd_Upgrade.get()) || item.getItem().is(WitherStormModItemTags.COMMAND_BLOCK_TOOLS))
                         {
                             for (int i = 0; i < 2; i++)
                             {

@@ -1,8 +1,8 @@
 package net.bagheerawithae.enderitecommandblocktools.item;
 
 import net.bagheerawithae.enderitecommandblocktools.ecbtcws;
-//import net.bagheerawithae.enderitecommandblocktools.item.custom.EnderiteCommandBlockPaxelItem;
-import net.bagheerawithae.enderitecommandblocktools.util.EnderiteCommandBlockToolsItemTier;
+import net.bagheerawithae.enderitecommandblocktools.item.custom.CmdPaxelItem;
+import net.bagheerawithae.enderitecommandblocktools.util.ModTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,48 +13,58 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ecbtcws.MOD_ID);
 
-    public static final RegistryObject<Item> Enderite_Command_Block_Sword = ITEMS.register("enderite_command_block_sword",
-            () -> new EnderiteCommandBlockSwordItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, 7, -1.5F,
+    public static final RegistryObject<Item> Enderite_Cmd_Sword = ITEMS.register("enderite_cmd_sword",
+            () -> new CmdSwordItem(ModTiers.ENDERITE_CMD, 5, -2.4F,
                     (new Item.Properties()).fireResistant().rarity(Rarity.EPIC)));
-    public static final RegistryObject<AxeItem> Enderite_Command_Block_Axe = ITEMS.register("enderite_command_block_axe",
-            () -> new EnderiteCommandBlockAxeItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, 0, -3.0F,
+
+    public static final RegistryObject<AxeItem> Enderite_Cmd_Axe = ITEMS.register("enderite_cmd_axe",
+            () -> new CmdAxeItem(ModTiers.ENDERITE_CMD, 0, -3.0F,
                     (new AxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
-    public static final RegistryObject<ShovelItem> Enderite_Command_Block_Shovel = ITEMS.register("enderite_command_block_shovel",
-            () -> new EnderiteCommandBlockShovelItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, -4, -3.4F,
+
+    public static final RegistryObject<ShovelItem> Enderite_Cmd_Shovel = ITEMS.register("enderite_cmd_shovel",
+            () -> new CmdShovelItem(ModTiers.ENDERITE_CMD, -4, -3.4F,
                     (new ShovelItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
-    public static final RegistryObject<PickaxeItem> Enderite_Command_Block_Pickaxe = ITEMS.register("enderite_command_block_pickaxe",
-            () -> new EnderiteCommandBlockPickaxeItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, -4, -2.8F,
+
+    public static final RegistryObject<PickaxeItem> Enderite_Cmd_Pickaxe = ITEMS.register("enderite_cmd_pickaxe",
+            () -> new CmdPickaxeItem(ModTiers.ENDERITE_CMD, -4, -2.8F,
                     (new PickaxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<HoeItem> Enderite_Command_Block_Hoe = ITEMS.register("enderite_command_block_hoe",
-            () -> new EnderiteCommandBlockHoeItem(EnderiteCommandBlockToolsItemTier.ENDERITE_CMD, -9, 0.0F,
+    public static final RegistryObject<HoeItem> Enderite_Cmd_Hoe = ITEMS.register("enderite_cmd_hoe",
+            () -> new CmdHoeItem(ModTiers.ENDERITE_CMD, -9, 0.0F,
                     (new HoeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<Item> Netherite_Command_Block_Sword = ITEMS.register("netherite_command_block_sword",
-            () -> new EnderiteCommandBlockSwordItem(EnderiteCommandBlockToolsItemTier.NETHERITE_CMD, 4, -2.0F,
+    public static final RegistryObject<Item> Netherite_Cmd_Sword = ITEMS.register("netherite_cmd_sword",
+            () -> new CmdSwordItem(ModTiers.NETHERITE_CMD, 4, -2.4F,
                     (new SwordItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<AxeItem> Netherite_Command_Block_Axe = ITEMS.register("netherite_command_block_axe",
-            () -> new EnderiteCommandBlockAxeItem(EnderiteCommandBlockToolsItemTier.NETHERITE_CMD, 3, -3.0F,
+    public static final RegistryObject<AxeItem> Netherite_Cmd_Axe = ITEMS.register("netherite_cmd_axe",
+            () -> new CmdAxeItem(ModTiers.NETHERITE_CMD, 3, -3.0F,
                     (new AxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<ShovelItem> Netherite_Command_Block_Shovel = ITEMS.register("netherite_command_block_shovel",
-            () -> new EnderiteCommandBlockShovelItem(EnderiteCommandBlockToolsItemTier.NETHERITE_CMD, -1, -3.4F,
+    public static final RegistryObject<ShovelItem> Netherite_Cmd_Shovel = ITEMS.register("netherite_cmd_shovel",
+            () -> new CmdShovelItem(ModTiers.NETHERITE_CMD, -1, -3.4F,
                     (new ShovelItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<PickaxeItem> Netherite_Command_Block_Pickaxe = ITEMS.register("netherite_command_block_pickaxe",
-            () -> new EnderiteCommandBlockPickaxeItem(EnderiteCommandBlockToolsItemTier.NETHERITE_CMD, -1, -2.8F,
+    public static final RegistryObject<PickaxeItem> Netherite_Cmd_Pickaxe = ITEMS.register("netherite_cmd_pickaxe",
+            () -> new CmdPickaxeItem(ModTiers.NETHERITE_CMD, -1, -2.8F,
                     (new PickaxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<HoeItem> Netherite_Command_Block_Hoe = ITEMS.register("netherite_command_block_hoe",
-            () -> new EnderiteCommandBlockHoeItem(EnderiteCommandBlockToolsItemTier.NETHERITE_CMD, -6, 0.0F,
+    public static final RegistryObject<HoeItem> Netherite_Cmd_Hoe = ITEMS.register("netherite_cmd_hoe",
+            () -> new CmdHoeItem(ModTiers.NETHERITE_CMD, -6, 0.0F,
                     (new HoeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
-    public static final RegistryObject<Item> Netherite_Command_Block_Upgrade = ITEMS.register("netherite_command_block_upgrade",
+    public static final RegistryObject<Item> Enderite_Cmd_Paxel = ITEMS.register("enderite_cmd_paxel",
+            () -> new CmdPaxelItem(ModTiers.ENDERITE_CMD, 0, -3.0F,
+                    new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+
+    public static final RegistryObject<Item> Netherite_Cmd_Upgrade = ITEMS.register("netherite_cmd_upgrade",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).fireResistant()));
 
-    public static final RegistryObject<Item> Enderite_Command_Block_Upgrade = ITEMS.register("enderite_command_block_upgrade",
+    public static final RegistryObject<Item> Enderite_Cmd_Upgrade = ITEMS.register("enderite_cmd_upgrade",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).fireResistant()));
+
+    public static final RegistryObject<Item> Enderite_Cmd_Half_tool = ITEMS.register("enderite_cmd_half_tool",
+            () -> new Item(new CmdEnderiteHalfTool.Properties().rarity(Rarity.EPIC).fireResistant()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

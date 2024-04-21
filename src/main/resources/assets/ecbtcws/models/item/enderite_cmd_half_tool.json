@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ecbtcws:item/enderite_cmd_half_tool"
+  }
+}

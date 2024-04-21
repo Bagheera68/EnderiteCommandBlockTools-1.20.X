@@ -93,11 +93,15 @@ repositories {
 
 dependencies {
 
-    minecraft 'net.minecraftforge:forge:1.20.1-47.1.46'
+    minecraft 'net.minecraftforge:forge:1.20.1-47.2.23'
 
-    implementation fg.deobf("curse.maven:crackers-wither-storm-mod-621405:4468077")
+    implementation fg.deobf("curse.maven:crackers-wither-storm-mod-621405:4995110")
 
-    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
+    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:5017690")
+
+    implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
+
+    implementation fg.deobf("curse.maven:cloth-config-348521:4973441")
 }
 
 
