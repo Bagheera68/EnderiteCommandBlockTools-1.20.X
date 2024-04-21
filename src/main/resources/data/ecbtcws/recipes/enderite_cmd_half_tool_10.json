@@ -2,10 +2,10 @@
   "type": "witherstormmod:anvil",
   "cost": 20,
   "left": {
-    "item": "#ecbtcws:enderite_cmd_tools"
+    "item": "ecbtcws:enderite_cmd_shovel"
   },
   "result": "ecbtcws:enderite_cmd_half_tool",
   "right": {
-    "item": "#ecbtcws:enderite_cmd_tools"
+    "item": "ecbtcws:enderite_cmd_axe"
   }
 }

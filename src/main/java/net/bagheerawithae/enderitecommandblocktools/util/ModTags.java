@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 
 public class ModTags {
 public static class Items {
-    public static final TagKey<Item> ENDERITE_CMD_TOOLS = tag( "enderite_cmd_tools");
 
     private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(ecbtcws.MOD_ID, name));
