@@ -15,8 +15,7 @@ public class CmdHoeItem extends HoeItem {
         return this.getMaxStackSize(stack) == 1;
     }
 
-    public boolean canBeHurtBy(DamageSource source)
-    {
+    public boolean canBeHurtBy(DamageSource source) {
         return source.is(DamageTypeTags.BYPASSES_INVULNERABILITY);
     }
 }
