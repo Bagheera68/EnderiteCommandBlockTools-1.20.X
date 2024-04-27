@@ -104,8 +104,6 @@ dependencies {
     implementation fg.deobf("curse.maven:cloth-config-348521:4973441")
 }
 
-
-
 jar {
     manifest {
         attributes([

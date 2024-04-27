@@ -14,7 +14,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ecbtcws.MOD_ID);
 
     public static final RegistryObject<Item> Enderite_Cmd_Sword = ITEMS.register("enderite_cmd_sword",
-            () -> new CmdSwordItem(ModTiers.ENDERITE_CMD, 5, -2.4F,
+            () -> new CmdEnderiteSwordItem(ModTiers.ENDERITE_CMD, 4, -1.8F,
                     (new Item.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<AxeItem> Enderite_Cmd_Axe = ITEMS.register("enderite_cmd_axe",
@@ -34,7 +34,7 @@ public class ModItems {
                     (new HoeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> Netherite_Cmd_Sword = ITEMS.register("netherite_cmd_sword",
-            () -> new CmdSwordItem(ModTiers.NETHERITE_CMD, 4, -2.4F,
+            () -> new CmdNetheriteSwordItem(ModTiers.NETHERITE_CMD, 4, -2.1F,
                     (new SwordItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<AxeItem> Netherite_Cmd_Axe = ITEMS.register("netherite_cmd_axe",
