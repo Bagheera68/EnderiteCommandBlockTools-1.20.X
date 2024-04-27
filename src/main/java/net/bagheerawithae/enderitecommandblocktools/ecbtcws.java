@@ -48,26 +48,6 @@ public class ecbtcws {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        {
-
-        }
-
-        if(event.getTab() == ModCreativeModeTabs.COMMAND_BLOCK_TOOLS.get()) {
-            event.accept(ModItems.Enderite_Cmd_Sword);
-            event.accept(ModItems.Enderite_Cmd_Paxel);
-            event.accept(ModItems.Enderite_Cmd_Half_tool);
-            event.accept(ModItems.Enderite_Cmd_Pickaxe);
-            event.accept(ModItems.Enderite_Cmd_Axe);
-            event.accept(ModItems.Enderite_Cmd_Shovel);
-            event.accept(ModItems.Enderite_Cmd_Hoe);
-            event.accept(ModItems.Netherite_Cmd_Sword);
-            event.accept(ModItems.Netherite_Cmd_Pickaxe);
-            event.accept(ModItems.Netherite_Cmd_Axe);
-            event.accept(ModItems.Netherite_Cmd_Shovel);
-            event.accept(ModItems.Netherite_Cmd_Hoe);
-            event.accept(ModItems.Enderite_Cmd_Upgrade);
-            event.accept(ModItems.Netherite_Cmd_Upgrade);
-        }
 
     }
 
@@ -76,6 +56,5 @@ public class ecbtcws {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
         }
-
     }
 }
