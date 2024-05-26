@@ -12,7 +12,7 @@ public class CmdPaxelItem extends DiggerItem implements Vanishable {
     public CmdPaxelItem(Tier pTier, float pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pAttackDamageModifier, pAttackSpeedModifier, pTier, ModTags.Blocks.PAXEL_MINEABLE, pProperties);
     }
-    public boolean itemStackSize(ItemStack stack) {
+    public boolean isEnchantable(ItemStack stack) {
         return this.getMaxStackSize(stack) == 1;
     }
     public boolean canBeHurtBy(DamageSource source)

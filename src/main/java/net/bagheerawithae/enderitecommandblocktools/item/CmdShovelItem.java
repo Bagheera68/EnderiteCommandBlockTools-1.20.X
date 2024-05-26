@@ -11,7 +11,7 @@ public class CmdShovelItem extends ShovelItem {
         super(tier, damage, attackSpeed, properties);
     }
 
-    public boolean getMaxItemStackSize(ItemStack stack) {
+    public boolean isEnchantable(ItemStack stack) {
         return this.getMaxStackSize(stack) == 1;
     }
 

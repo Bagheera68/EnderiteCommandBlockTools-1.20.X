@@ -1,15 +1,18 @@
 package net.bagheerawithae.enderitecommandblocktools.util;
 
 import com.google.common.base.Supplier;
+import net.enderitemc.enderitemod.EnderiteMod;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
+import nonamecrackers2.witherstormmod.common.init.WitherStormModItems;
 
 public enum ModTiers implements Tier
 {
     ENDERITE_CMD(7, 0, 65F, 12F, 70, () ->
             Ingredient.of(Items.NETHERITE_INGOT)),
-    NETHERITE_CMD(6, 0, 24F, 8.5F, 52, () ->
+    NETHERITE_CMD(6, 0, 24F, 9F, 52, () ->
             Ingredient.of(Items.NETHERITE_INGOT));
 
     private final int level;

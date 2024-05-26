@@ -1,9 +1,7 @@
 package net.bagheerawithae.enderitecommandblocktools;
 
 import com.mojang.logging.LogUtils;
-import net.bagheerawithae.enderitecommandblocktools.item.ItemParticleEffects.ItemParticleEffectsEnderite;
-import net.bagheerawithae.enderitecommandblocktools.item.ItemParticleEffects.ItemParticleEffectsEnderiteHalfTool;
-import net.bagheerawithae.enderitecommandblocktools.item.ItemParticleEffects.ItemParticleEffectsNetherite;
+import net.bagheerawithae.enderitecommandblocktools.item.ItemParticleEffects.ItemParticleEffectsCmdParticle;
 import net.bagheerawithae.enderitecommandblocktools.item.ModItems;
 import net.bagheerawithae.enderitecommandblocktools.util.ModCreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,11 +28,7 @@ public class ecbtcws {
 
         ModItems.register(modEventBus);
 
-        MinecraftForge.EVENT_BUS.addListener(ItemParticleEffectsEnderite::onClientTick);
-
-        MinecraftForge.EVENT_BUS.addListener(ItemParticleEffectsNetherite::onClientTick);
-
-        MinecraftForge.EVENT_BUS.addListener(ItemParticleEffectsEnderiteHalfTool::onClientTick);
+        MinecraftForge.EVENT_BUS.addListener(ItemParticleEffectsCmdParticle::onClientTick);
 
         modEventBus.addListener(this::commonSetup);
 

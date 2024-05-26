@@ -9,10 +9,6 @@ public class CmdEnderiteHalfTool extends AxeItem {
         super(tier, damage, attackSpeed, properties);
     }
 
-    public boolean getMaxItemStackSize(ItemStack stack) {
-        return this.getMaxStackSize(stack) == 1;
-    }
-
     public boolean canBeHurtBy(DamageSource source) {
         return source.is(DamageTypeTags.BYPASSES_INVULNERABILITY);
     }

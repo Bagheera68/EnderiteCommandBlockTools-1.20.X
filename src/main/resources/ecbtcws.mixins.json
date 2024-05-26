@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.bagheerawithae.enderitecommandblocktools.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "ecbtcws.refmap.json",
+	"mixins": [
+		"SmithingEnderiteCmdSwordTakeMixin",
+		"SmithingEnderiteCmdSwordOutputMixin",
+		"SmithingEnderiteCmdSwordMixin"
+	],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8"
+}

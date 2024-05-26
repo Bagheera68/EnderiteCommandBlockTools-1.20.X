@@ -16,7 +16,7 @@ public class CmdAxeItem extends AxeItem {
         super(tier, damage, attackSpeed, properties);
     }
 
-    public boolean getMaxItemStackSize(ItemStack stack) {
+    public boolean isEnchantable(ItemStack stack) {
         return this.getMaxStackSize(stack) == 1;
     }
 
