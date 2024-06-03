@@ -21,14 +21,13 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Enderite_Cmd_Sword.get());
                         pOutput.accept(ModItems.Enderite_Cmd_Paxel.get());
 
-                        pOutput.accept(ModItems.Enderite_Cmd_Half_tool.get());
-
                         pOutput.accept(ModItems.Enderite_Cmd_Pickaxe.get());
                         pOutput.accept(ModItems.Enderite_Cmd_Axe.get());
                         pOutput.accept(ModItems.Enderite_Cmd_Shovel.get());
                         pOutput.accept(ModItems.Enderite_Cmd_Hoe.get());
+                        pOutput.accept(ModItems.Enderite_Cmd_Half_tool.get());
 
-                        pOutput.accept(ModItems.Enderite_Cmd_Upgrade.get());
+
 
                         pOutput.accept(ModItems.Netherite_Cmd_Sword.get());
 
@@ -37,6 +36,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Netherite_Cmd_Shovel.get());
                         pOutput.accept(ModItems.Netherite_Cmd_Hoe.get());
 
+                        pOutput.accept(ModItems.Enderite_Cmd_Upgrade.get());
                         pOutput.accept(ModItems.Netherite_Cmd_Upgrade.get());
                     })
                     .build());

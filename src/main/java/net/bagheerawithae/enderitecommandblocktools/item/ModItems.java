@@ -24,19 +24,19 @@ public class ModItems {
                     (new Item.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<AxeItem> Enderite_Cmd_Axe = ITEMS.register("enderite_cmd_axe",
-            () -> new CmdAxeItem(ModTiers.ENDERITE_CMD, 0, -3.0F,
+            () -> new CmdAxeItem(ModTiers.ENDERITE_CMD, 14, -3.0F,
                     (new AxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<ShovelItem> Enderite_Cmd_Shovel = ITEMS.register("enderite_cmd_shovel",
-            () -> new CmdShovelItem(ModTiers.ENDERITE_CMD, -4, -3.4F,
+            () -> new CmdShovelItem(ModTiers.ENDERITE_CMD, 10, -3.4F,
                     (new ShovelItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<PickaxeItem> Enderite_Cmd_Pickaxe = ITEMS.register("enderite_cmd_pickaxe",
-            () -> new CmdPickaxeItem(ModTiers.ENDERITE_CMD, -4, -2.8F,
+            () -> new CmdPickaxeItem(ModTiers.ENDERITE_CMD, 10, -2.8F,
                     (new PickaxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<HoeItem> Enderite_Cmd_Hoe = ITEMS.register("enderite_cmd_hoe",
-            () -> new CmdHoeItem(ModTiers.ENDERITE_CMD, -9, 0.0F,
+            () -> new CmdHoeItem(ModTiers.ENDERITE_CMD, 5, 0.0F,
                     (new HoeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> Netherite_Cmd_Sword = ITEMS.register("netherite_cmd_sword",
@@ -44,23 +44,23 @@ public class ModItems {
                     (new SwordItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<AxeItem> Netherite_Cmd_Axe = ITEMS.register("netherite_cmd_axe",
-            () -> new CmdAxeItem(ModTiers.NETHERITE_CMD, 3, -3.0F,
+            () -> new CmdAxeItem(ModTiers.NETHERITE_CMD, 13, -3.0F,
                     (new AxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<ShovelItem> Netherite_Cmd_Shovel = ITEMS.register("netherite_cmd_shovel",
-            () -> new CmdShovelItem(ModTiers.NETHERITE_CMD, -1, -3.4F,
+            () -> new CmdShovelItem(ModTiers.NETHERITE_CMD, 9, -3.4F,
                     (new ShovelItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<PickaxeItem> Netherite_Cmd_Pickaxe = ITEMS.register("netherite_cmd_pickaxe",
-            () -> new CmdPickaxeItem(ModTiers.NETHERITE_CMD, -1, -2.8F,
+            () -> new CmdPickaxeItem(ModTiers.NETHERITE_CMD, 9, -2.8F,
                     (new PickaxeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<HoeItem> Netherite_Cmd_Hoe = ITEMS.register("netherite_cmd_hoe",
-            () -> new CmdHoeItem(ModTiers.NETHERITE_CMD, -6, 0.0F,
+            () -> new CmdHoeItem(ModTiers.NETHERITE_CMD, 4, 0.0F,
                     (new HoeItem.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> Enderite_Cmd_Paxel = ITEMS.register("enderite_cmd_paxel",
-            () -> new CmdPaxelItem(ModTiers.ENDERITE_CMD, 0, -3.0F,
+            () -> new CmdPaxelItem(ModTiers.ENDERITE_CMD, 14, -3.0F,
                     new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> Netherite_Cmd_Upgrade = ITEMS.register("netherite_cmd_upgrade",
