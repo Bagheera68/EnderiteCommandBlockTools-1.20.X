@@ -138,9 +138,9 @@ public class CmdEnderiteSwordItem extends SwordItem {
     public void appendHoverText(ItemStack itemStack, Level world, List<Component> tooltip, TooltipFlag tooltipContext) {
         if (itemStack.getOrCreateTag().contains("teleport_charge")) {
             String charge = itemStack.getOrCreateTag().get("teleport_charge").toString();
-            tooltip.add(Component.translatable("item.enderitemod.enderite_sword.charge").withStyle(new ChatFormatting[]{ChatFormatting.DARK_PURPLE}).append(Component.literal(": " + charge)));
+            tooltip.add(Component.translatable("item.enderitemod.enderite_sword.charge").withStyle(new ChatFormatting[]{ChatFormatting.AQUA}).append(Component.literal(": " + charge)));
         } else {
-            tooltip.add(Component.translatable("item.enderitemod.enderite_sword.charge").withStyle(new ChatFormatting[]{ChatFormatting.DARK_PURPLE}).append(Component.literal(": 0")));
+            tooltip.add(Component.translatable("item.enderitemod.enderite_sword.charge").withStyle(new ChatFormatting[]{ChatFormatting.AQUA}).append(Component.literal(": 0")));
         }
 
         tooltip.add(Component.translatable("item.enderitemod.enderite_sword.tooltip1").withStyle(new ChatFormatting[]{ChatFormatting.BLUE, ChatFormatting.ITALIC}));
