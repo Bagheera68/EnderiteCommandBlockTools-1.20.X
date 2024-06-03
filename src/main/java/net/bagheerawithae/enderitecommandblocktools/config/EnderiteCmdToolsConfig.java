@@ -8,7 +8,9 @@ public class EnderiteCmdToolsConfig {
 
     public static class swordDamage {
 
-        public int enderiteCmdSwordAD = 17;
+        public int enderiteCmdSwordDamage = 17;
+
+        public int netheriteCmdSwordDamage = 13;
 
         public swordDamage() {
         }

@@ -17,5 +17,6 @@
   "creativemodetab.command_block_tools": "Command Block Tools",
 
   "option.ecbtcws.restart.enderite_Cmd_sword.attack_damage": "Enderite Command Block Sword attack damage",
-  "title.ecbtcws.config": "Enderite Command Block Tools Mod Config"
+  "title.ecbtcws.config": "Enderite Command Block Tools Mod Config",
+  "category.ecbtcws.swordDamage": "Sword Damage"
 }

@@ -10,9 +10,9 @@ import nonamecrackers2.witherstormmod.common.init.WitherStormModItems;
 
 public enum ModTiers implements Tier
 {
-    ENDERITE_CMD(7, 0, 65F, 12F, 70, () ->
+    ENDERITE_CMD(7, 0, 65F, -1F, 70, () ->
             Ingredient.of(Items.NETHERITE_INGOT)),
-    NETHERITE_CMD(6, 0, 24F, 9F, 52, () ->
+    NETHERITE_CMD(6, 0, 24F, -1F, 52, () ->
             Ingredient.of(Items.NETHERITE_INGOT));
 
     private final int level;
