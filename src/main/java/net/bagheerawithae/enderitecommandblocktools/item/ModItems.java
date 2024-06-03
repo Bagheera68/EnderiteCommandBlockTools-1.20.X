@@ -1,7 +1,10 @@
 package net.bagheerawithae.enderitecommandblocktools.item;
 
+import net.bagheerawithae.enderitecommandblocktools.config.ConfigLoader;
+import net.bagheerawithae.enderitecommandblocktools.config.EnderiteCmdToolsConfig;
 import net.bagheerawithae.enderitecommandblocktools.ecbtcws;
 import net.bagheerawithae.enderitecommandblocktools.item.custom.CmdPaxelItem;
+import net.bagheerawithae.enderitecommandblocktools.item.tools.*;
 import net.bagheerawithae.enderitecommandblocktools.util.ModTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -10,11 +13,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
+
+    public static EnderiteCmdToolsConfig EnderiteCmdToolsConfig = ConfigLoader.get();
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ecbtcws.MOD_ID);
 
     public static final RegistryObject<Item> Enderite_Cmd_Sword = ITEMS.register("enderite_cmd_sword",
-            () -> new CmdEnderiteSwordItem(ModTiers.ENDERITE_CMD, 7, -2.0F,
+            () -> new CmdEnderiteSwordItem(ModTiers.ENDERITE_CMD, EnderiteCmdToolsConfig.swordDamage.enderiteCmdSwordAD, -2.0F,
                     (new Item.Properties()).fireResistant().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<AxeItem> Enderite_Cmd_Axe = ITEMS.register("enderite_cmd_axe",

@@ -1,4 +1,4 @@
-package net.bagheerawithae.enderitecommandblocktools.item;
+package net.bagheerawithae.enderitecommandblocktools.item.tools;
 
 import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.damagesource.DamageSource;

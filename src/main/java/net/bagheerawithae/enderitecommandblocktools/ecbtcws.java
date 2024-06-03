@@ -1,9 +1,11 @@
 package net.bagheerawithae.enderitecommandblocktools;
 
 import com.mojang.logging.LogUtils;
+import net.bagheerawithae.enderitecommandblocktools.config.EnderiteCmdToolsConfig;
 import net.bagheerawithae.enderitecommandblocktools.item.ItemParticleEffects.ItemParticleEffectsCmdParticle;
 import net.bagheerawithae.enderitecommandblocktools.item.ModItems;
 import net.bagheerawithae.enderitecommandblocktools.util.ModCreativeModeTabs;
+import net.enderitemc.enderitemod.config.Config;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

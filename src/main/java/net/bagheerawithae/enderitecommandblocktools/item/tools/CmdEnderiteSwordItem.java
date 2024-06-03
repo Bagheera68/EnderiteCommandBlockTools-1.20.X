@@ -1,4 +1,4 @@
-package net.bagheerawithae.enderitecommandblocktools.item;
+package net.bagheerawithae.enderitecommandblocktools.item.tools;
 
 import net.enderitemc.enderitemod.tools.EnderiteSword;
 import net.minecraft.ChatFormatting;
