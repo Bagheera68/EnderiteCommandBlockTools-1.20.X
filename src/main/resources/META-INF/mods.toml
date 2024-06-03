@@ -1,7 +1,7 @@
 
 modLoader="javafml"
 loaderVersion="[44,)"
-license="MIT"
+license="All rights reserved"
 [[mods]]
 modId="ecbtcws"
 version="${file.jarVersion}"
