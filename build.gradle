@@ -20,7 +20,7 @@ minecraft {
         client {
             workingDirectory project.file('run')
 
-            arg "-mixin.config=ecbtcws.mixins.json"
+            arg "mixin.config=ecbtcws.mixins.json"
 
             property 'forge.logging.markers', 'REGISTRIES'
 
@@ -38,7 +38,7 @@ minecraft {
         server {
             workingDirectory project.file('run')
 
-            arg "-mixin.config=ecbtcws.mixins.json"
+            arg "mixin.config=ecbtcws.mixins.json"
 
             property 'forge.logging.markers', 'REGISTRIES'
 
@@ -110,6 +110,10 @@ dependencies {
     implementation fg.deobf("curse.maven:cloth-config-348521:4973441")
 
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
+
+    implementation fg.deobf("curse.maven:alexs-caves-924854:5162617")
+
+    implementation fg.deobf("curse.maven:citadel-331936:5143956")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
