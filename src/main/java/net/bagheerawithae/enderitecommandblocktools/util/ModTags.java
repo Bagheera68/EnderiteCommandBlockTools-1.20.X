@@ -15,12 +15,15 @@ public static class Items {
             return ItemTags.create(new ResourceLocation(ecbtcws.MOD_ID, name));
         }
 
+        public static final TagKey<Item> ENDERITE_HALF_TOOL_ITEMS = tag("items/enderite_half_tool_items");
+
         private static TagKey<Item> forgeTag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));
         }
     }
 
     public static class Blocks {
+
         public static final TagKey<Block> PAXEL_MINEABLE = tag("mineable/paxel");
 
         private static TagKey<Block> tag(String name) {
