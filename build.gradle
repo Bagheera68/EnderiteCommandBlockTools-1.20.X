@@ -119,7 +119,6 @@ dependencies {
 }
 
 mixin {
-    // MixinGradle Settings
     add sourceSets.main, 'ecbtcws.refmap.json'
     config 'ecbtcws.mixins.json'
 

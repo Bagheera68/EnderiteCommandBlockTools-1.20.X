@@ -52,18 +52,5 @@ public abstract class SmithingEnderiteCmdSwordMixin extends ItemCombinerMenu {
             newSword.getOrCreateTag().putInt("teleport_charge", teleport_charge);
             this.resultSlots.setItem(0, newSword);
         }
-
-        ItemStack outputStack = this.resultSlots.getItem(0);
-        if (outputStack.is(EnderiteTag.ENDERITE_ARMOR) && outputStack.is(ItemTags.TRIMMABLE_ARMOR)) {
-            CompoundTag nbt = outputStack.getOrCreateTag();
-            if (nbt != null) {
-                CompoundTag trim_nbt = nbt.getCompound("Trim");
-                if (trim_nbt != null && trim_nbt.getString("material").equals("enderitemod:enderite")) {
-                    trim_nbt.putString("material", "enderitemod:enderite_darker");
-                    nbt.put("Trim", trim_nbt);
-                    outputStack.setTag(nbt);
-                }
-            }
-        }
     }
 }

@@ -4,7 +4,7 @@ loaderVersion="[44,)"
 license="All rights reserved"
 [[mods]]
 modId="ecbtcws"
-version="${file.jarVersion}"
+version="1.2"
 displayName="Enderite Command Block Tools"
 logoFile="enderite_cmd_paxel_logo.png"
 credits="Bagheerawithae"
